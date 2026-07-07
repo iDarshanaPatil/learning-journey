@@ -19,7 +19,7 @@ button=tk.Button(
 
 #placing the button & otp on the window
 button.pack(pady=20)
-otp.pack(pady=20)
+otp.pack(pady=20)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 
 root.mainloop()
     
