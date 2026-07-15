@@ -36,14 +36,14 @@ while user_input=="y" or user_input=="Y":
     user_choice = int(input("Please select an option (1-4): "))
     match user_choice:
         case 1:
-            balance = 1000.0  # Example balance
+            balance = 1000.0  
             check_balance(balance)
         case 2:
-            balance = 1000.0  # Example balance
+            balance = 1000.0  
             amount = float(input("Enter the amount to transfer: "))
             balance = transfer(balance, amount)
         case 3:
-            balance = 1000.0  # Example balance
+            balance = 1000.0  
             amount = float(input("Enter the amount to deposit: "))
             balance = deposit(balance, amount)
         case 4:
