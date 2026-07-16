@@ -21,7 +21,7 @@ class Atm:
      elif user_input=="3":
                 self.withdraw()
      elif user_input=="4":
-                print("Check balance")
+                print("Current balance : ", self.balance)
      elif user_input=="5":
                 print("Exit")
      else:
@@ -56,4 +56,5 @@ from Day5 import Atm
 atm=Atm()
 atm.deposit()
 atm.withdraw()
+
                   
