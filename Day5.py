@@ -1,3 +1,5 @@
+# Whats happening ? -> creation of simple banking application using python, learning "self" keyword and constructor 
+
 class Atm:
     def __init__(self):       # this is constructor 
           self.pin=""
