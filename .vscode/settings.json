@@ -1,8 +1,10 @@
 {
   "editor.quickSuggestions": {
     "comments": "off",
-    "strings": "off",
-    "other": "off"
+    "strings": "on",
+    "other": "on"
   },
-  "editor.suggestOnTriggerCharacters": false
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "files.autoSave": "onFocusChange"
 }
