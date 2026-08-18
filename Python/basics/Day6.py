@@ -7,7 +7,7 @@ class Fraction:
     def __str__(self):          # __str__ is a magic method
         return"{}/{}".format(self.num,self.den)
 
-from Day6 import Fraction
+from Python.basics.Day6 import Fraction
 f1=Fraction(3,4)
 type(f1)
 print(f1)

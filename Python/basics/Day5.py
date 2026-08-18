@@ -54,7 +54,7 @@ class Atm:
            else:
             print("Incorrect pin")
 
-from Day5 import Atm
+from Python.basics.Day5 import Atm
 atm=Atm()
 atm.deposit()
 atm.withdraw()
